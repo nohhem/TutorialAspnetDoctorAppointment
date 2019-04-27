@@ -1,0 +1,44 @@
+﻿<%@ Master Language="vb" AutoEventWireup="true" CodeFile="Site.master.vb" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+	<title>ASP.NET Doctor Appointment Scheduling</title>
+	<link href="~/Media/layout.css" rel="stylesheet" type="text/css" />
+	<link href='media/custom.css' type="text/css" rel="stylesheet" /> 
+	<script src="js/daypilot-modal-2.2.js"></script>
+
+	<asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+	<form runat="server">
+	<div class="page">
+		<div id="header">
+			<div class="bg-help">
+				<div class="inBox">
+					<h1 id="logo"><a href='http://code.daypilot.org/55027/asp.net-doctor-appointment-scheduling'>ASP.NET Doctor Appointment Scheduling</a></h1>
+					<p id="claim"><a href="http://www.daypilot.org/">DayPilot</a> - AJAX Calendar/Scheduling Controls for ASP.NET</p>
+					<hr class="hidden" />
+				</div>
+			</div>
+		</div>
+		<div class="shadow"></div>
+		<div class="main">
+			<div class="space">
+				<a href="Default.aspx">Public</a>
+				|
+				<a href="Doctor.aspx">Doctor</a>
+				|
+				<a href="Manager.aspx">Manager</a>
+			</div>
+			<asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+		</div>
+		<div class="clear">
+		</div>
+	</div>
+	<div class="footer">
+
+	</div>
+	</form>
+</body>
+</html>

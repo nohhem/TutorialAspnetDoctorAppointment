@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TutorialCS(5)", "http://localhost:63253", "{0C3CCC9B-733B-4650-B00C-6724BDB1E42B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63253"
+		Debug.AspNetCompiler.PhysicalPath = "TutorialCS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63253\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63253"
+		Release.AspNetCompiler.PhysicalPath = "TutorialCS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63253\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "TutorialCS\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TutorialVB(7)", "http://localhost:55137", "{480B4863-17E3-4885-8E90-77598B5E2D8E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55137"
+		Debug.AspNetCompiler.PhysicalPath = "TutorialVB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55137\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55137"
+		Release.AspNetCompiler.PhysicalPath = "TutorialVB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55137\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "TutorialVB\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C3CCC9B-733B-4650-B00C-6724BDB1E42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3CCC9B-733B-4650-B00C-6724BDB1E42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480B4863-17E3-4885-8E90-77598B5E2D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480B4863-17E3-4885-8E90-77598B5E2D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
